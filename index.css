@@ -1,1 +1,74 @@
 /* Put your style information here! */
+.logo{
+    width: 110px;
+}
+
+.navbar{
+    background-color: #d3e4fc;
+}
+
+.top-pane {
+    background: url(table-food-op.png) center fixed;
+    background-size: cover;
+	height: calc(100vh);
+}
+
+.content{
+    padding: 40px;
+}
+
+.specialty{
+    padding: 20px;
+}
+
+.explanation{
+    padding-top: 15px;
+    padding-right: 30px;
+    width: 90%;
+}
+
+
+.explanation-2{
+    padding-top: 15px;
+    padding-left: 30px;
+    width: 90%;
+}
+
+.carousel{
+    width: 70%;
+}
+
+
+
+h1{
+    color: #f13012;
+    padding: 20px;
+    font-size: 120%;
+}
+h2, h4{
+    color: #003f96;
+    padding: 20px;
+}
+
+img {
+    max-width: 600px;
+}
+
+.title{
+    color: #003f96;
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle{
+    font-style: italic;
+}
+
+button{
+    max-height: 40px;
+}
+
+.visit{
+    text-align: center;
+}

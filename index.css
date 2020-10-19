@@ -8,7 +8,9 @@ body{
 }
 
 .navbar{
-    background-color: #d3e4fc;
+    /* background-color: #d3e4fc; */
+    background-color: white;
+    border-bottom: 7.5px solid #003f96;
     font-family: 'Roboto Slab', serif;
     color: #003f96;
 }
@@ -64,6 +66,11 @@ h2, h4, h6{
 
 img {
     max-width: 700px;
+}
+
+.specials{
+    justify-content: center;
+    align-items: center;
 }
 
 .title{

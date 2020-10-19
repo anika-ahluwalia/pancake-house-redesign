@@ -3,14 +3,24 @@
     width: 110px;
 }
 
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
 .navbar{
     background-color: #d3e4fc;
+    font-family: 'Roboto Slab', serif;
+    color: #003f96;
+}
+
+a,li{
+    color: #003f96;
 }
 
 .top-pane {
     background: url(table-food-op.png) center fixed;
     background-size: cover;
-	height: calc(100vh);
+	height: calc(100vh - 300px);
 }
 
 .content{
@@ -44,14 +54,16 @@ h1{
     color: #f13012;
     padding: 20px;
     font-size: 120%;
+    font-family: 'Sansita Swashed', cursive;
 }
-h2, h4{
+h2, h4, h6{
     color: #003f96;
     padding: 20px;
+    font-family: 'Roboto Slab', serif;
 }
 
 img {
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .title{
@@ -59,16 +71,40 @@ img {
     font-size: 300%;
     font-weight: bold;
     text-align: center;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 .subtitle{
     font-style: italic;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 button{
     max-height: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn{
+    font-family: 'Roboto Slab', serif;
 }
 
 .visit{
     text-align: center;
+}
+
+.food-img{
+    width: 300px;
+    height: auto;
+    padding: 15px;
+}
+
+.food-text{
+   width: 300px;
+   height: 200px;
+   text-align: center;
+}
+
+.special{
+    width: 350px;
+    padding: 20px;
 }

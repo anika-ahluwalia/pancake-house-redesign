@@ -70,7 +70,7 @@ a,li{
 
 .title{
     color: #003f96;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
@@ -78,7 +78,7 @@ a,li{
 
 .subtitle{
     color: #003f96;
-    font-size: 36px;
+    font-size: 25px;
     font-style: italic;
     text-align: center;
     font-family: 'Sansita Swashed', cursive;
@@ -146,19 +146,19 @@ button{
 }
 
 .choco-pancakes {
-    width: 100%;
+    width: 400px;
+    height: 350px;
     background-image: url('choco-pancakes.jpg');
     background-size: cover;
     padding: 30px;
-    min-height: 350px;
     align-self: center;
 }
 
 .old-oph {
-    width: 100%;
+    width: 400px;
+    height: 350px;
     padding: 30px;
     background-image: url('oph-old.jpg');
     background-size: cover;
-    min-height: 350px;
     align-self: center;
 }

@@ -22,11 +22,11 @@ a,li{
 .top-pane {
     background: url(table-food-op.png) center fixed;
     background-size: cover;
-	height: calc(100vh - 300px);
+	height: calc(100vh - 220px);
 }
 
 .content{
-    padding: 40px;
+    padding: 50px;
 }
 
 .specialty{
@@ -63,8 +63,9 @@ a,li{
 
 .body-text{
     color: #003f96;
+    /* color: black; */
     font-size: 19px;
-    padding: 10px;
+    padding: 25px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -112,6 +113,7 @@ a,li{
     width: 100%;
     text-align: center;
     border-radius: 15px;
+    /* color: black; */
     color: #003f96;
     font-size: 13px;
     padding: 10px;
@@ -163,16 +165,16 @@ a,li{
 }
 
 .choco-pancakes {
-    width: 400px;
+    width: 80%;
     height: 350px;
-    background-image: url('choco-pancakes.jpg');
+    background-image: url('pecan-pancakes.jpg');
     background-size: cover;
     padding: 30px;
     align-self: center;
 }
 
 .old-oph {
-    width: 400px;
+    width: 80%;
     height: 350px;
     padding: 30px;
     background-image: url('oph-old.jpg');

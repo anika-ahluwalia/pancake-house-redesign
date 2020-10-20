@@ -47,7 +47,7 @@ a,li{
 
 
 .section-header{
-    color: #f13012;
+    color: #dc3545;
     padding: 20px;
     font-size: 38px;
     font-family: 'Sansita Swashed', cursive;
@@ -55,6 +55,7 @@ a,li{
 
 .extra-header{
     color: #003f96;
+    font-weight: 900;
     font-size: 32px;
     padding: 20px;
     font-family: 'Roboto Slab', serif;
@@ -128,9 +129,10 @@ a,li{
 .specials{
     justify-content: center;
     align-items: center;
-    background-color: #e5eaf1;
+    background-color: #E6EDF6;
     border-radius: 15px;
     padding-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .visit{

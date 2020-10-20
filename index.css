@@ -138,21 +138,27 @@ button{
     padding-top: 30px;
     align-content: center;
     align-self: center;
-    align-self: center;
-    vertical-align: top;
+    vertical-align: center;
+}
+
+.larger-img{
+    width: 50%;
 }
 
 .choco-pancakes {
     width: 100%;
     background-image: url('choco-pancakes.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding:30px;
+    background-size: cover;
+    padding: 30px;
+    min-height: 350px;
+    align-self: center;
 }
 
 .old-oph {
     width: 100%;
+    padding: 30px;
     background-image: url('oph-old.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    min-height: 350px;
+    align-self: center;
 }

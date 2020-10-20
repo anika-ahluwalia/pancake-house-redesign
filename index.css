@@ -58,6 +58,7 @@ a,li{
     font-size: 32px;
     padding: 20px;
     font-family: 'Roboto Slab', serif;
+    text-align: center;
 }
 
 .body-text{
@@ -86,7 +87,7 @@ a,li{
 
 
 .food-text{
-    width: 300px;
+    width: 100%;
     text-align: center;
     border-radius: 15px;
     color: #003f96;
@@ -118,19 +119,27 @@ button{
 }
 
 .food-img{
-    width: 300px;
+    width: 100%;
     padding: 15px;
+    align-content: center;
+    align-self: center;
+    align-self: center;
+    vertical-align: top;
 }
 
-.reg-img{
-    width: 50vw;
+.reg-image{
+    width: 100%;
 }
 
 .special{
-    width: 350px;
+    width: 100%;
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 30px;
+    align-content: center;
+    align-self: center;
+    align-self: center;
+    vertical-align: top;
 }
 
 .choco-pancakes {

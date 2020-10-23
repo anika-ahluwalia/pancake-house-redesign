@@ -107,6 +107,10 @@ a,li{
     .body-text{
         font-size: 14px;
     }
+
+    .content{
+        padding: 20px;
+    }
 }
 
 
